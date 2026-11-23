@@ -1,0 +1,230 @@
+export const uk = {
+  // Header & Navigation
+  searchPlaceholder: 'Пошук',
+  recommendations: 'Рекомендації',
+  categories: 'Категорії',
+  sale: 'Розпродаж',
+  backToStore: 'Назад до магазину',
+
+  // Language & UI
+  language: {
+    english: 'English',
+    ukrainian: 'Українська',
+  },
+
+  // Categories
+  allGames: 'Всі ігри',
+  off50: '50%+ Знижка',
+  off30: '30%–49% Знижка',
+  under10: 'До 10€',
+  freeGames: 'Безкоштовні ігри',
+
+  // Messages
+  noGames: 'Ігор не знайдено.',
+  loading: 'Завантаження...',
+
+  // Auth - Login Page
+  login: {
+    welcomeBack: 'З поверненням до',
+    subtitle: 'Збирайте свою колекцію легендарних ігор - почніть зараз!',
+    email: 'Електронна пошта',
+    password: 'Пароль',
+    forgotPassword: 'Забули пароль?',
+    loginButton: 'Увійти',
+    loggingIn: '⏳ Виконується вхід...',
+    loginSuccess: '✅ Успішний вхід! Перенаправлення...',
+    loginError: '❌ Помилка: {error}',
+    fillAllFields: 'Будь ласка, заповніть усі поля.',
+    loggingInGoogle: '⏳ Виконується вхід через Google...',
+    accountNotFound: '🤔 Акаунт не знайдено. Створення нового...',
+    accountCreated: '✅ Акаунт створено! Виконується вхід...',
+    orDivider: 'АБО',
+    noAccount: 'Немає акаунту?',
+  },
+
+  // Auth - Registration Page
+  registration: {
+    welcome: 'Ласкаво просимо до',
+    subtitle: 'Збирайте свою колекцію легендарних ігор - почніть зараз!',
+    email: 'Електронна пошта',
+    password: 'Пароль',
+    confirmPassword: 'Підтвердіть пароль',
+    confirmPasswordPlaceholder: 'Підтвердіть пароль',
+    fillAllFields: 'Будь ласка, заповніть усі поля.',
+    passwordsMismatch: 'Паролі не збігаються.',
+    registering: '⏳ Реєстрація...',
+    registrationSuccess: '✅ Реєстрація успішна! Виконується вхід...',
+    loginFailed: '❌ Помилка входу. Будь ласка, увійдіть вручну.',
+    emailRegistered: '📧 Email вже зареєстрований. Виконується вхід...',
+    processingGoogle: '⏳ Обробка входу через Google...',
+    creatingAccount: '⏳ Створення акаунту...',
+    registrationComplete: '✅ Реєстрація завершена! Виконується вхід...',
+    couldNotLogin: 'Не вдалося увійти після реєстрації.',
+    accountExists: '📧 Акаунт вже існує. Виконується вхід...',
+    orDivider: 'АБО',
+    signUpButton: 'Зареєструватися',
+    haveAccount: 'Вже є акаунт?',
+    googleLoginFailed: '❌ Помилка входу через Google.',
+  },
+
+  // Auth - Forgot Password Page
+  forgotPassword: {
+    title: 'Скидання пароля для',
+    subtitle: 'Введіть свою електронну пошту, щоб отримати посилання для скидання пароля.',
+    email: 'Електронна пошта',
+    emailPlaceholder: 'Електронна пошта',
+    resetLinkSent: 'Посилання для скидання пароля надіслано на вашу пошту!',
+    enterEmail: 'Будь ласка, введіть вашу електронну пошту.',
+    sendResetLink: 'Надіслати посилання',
+    rememberPassword: "Пам'ятаєте пароль? Увійти",
+  },
+
+  // Profile Page
+  profile: {
+    editProfile: 'Редагувати профіль',
+    switchAccount: 'Змінити акаунт',
+    logout: 'Вийти',
+    myLibrary: 'Моя бібліотека',
+    bonuses: 'Бонуси',
+    bills: 'Чеки',
+    favorites: 'Обрані',
+    noGamesInLibrary: 'Немає ігор у вашій бібліотеці',
+    purchaseGames: 'Купіть ігри, щоб додати їх до своєї бібліотеки',
+    noBonuses: 'Немає доступних бонусів',
+    completeAchievements: 'Виконуйте досягнення, щоб отримати бонуси',
+    noBills: 'Немає доступних рахунків',
+    browseStore: 'Перегляньте магазин, щоб зробити покупку',
+    noFavorites: 'Поки що немає обраного',
+    addToFavorites: 'Додайте ігри до списку обраного',
+    avatarUploaded: 'Аватар успішно завантажено!',
+    avatarUploadFailed: 'Не вдалося завантажити аватар',
+    switchedToAccount: 'Перемкнуто на акаунт: {email}',
+    switchAccountFailed: 'Не вдалося змінити акаунт',
+    switchAccountError: 'Сталася помилка при зміні акаунту',
+    loading: 'Завантаження...',
+    current: '(Поточний)',
+    addNewAccount: 'Додати новий акаунт',
+  },
+
+  // Edit Profile Page
+  editProfile: {
+    backToProfile: 'Назад до профілю',
+    username: "Ім'я користувача",
+    usernamePlaceholder: "Введіть ім'я користувача",
+    email: 'Електронна пошта',
+    emailPlaceholder: 'Введіть електронну пошту',
+    password: 'Пароль',
+    resetPassword: 'Скинути пароль',
+    saveChanges: 'Зберегти зміни',
+    saving: 'Збереження...',
+    successMessage: '✅ {message}',
+    errorMessage: '❌ Помилка: {error}',
+    errorLoading: '❌ Помилка завантаження профілю: {error}',
+    loading: 'Завантаження...',
+  },
+
+  // Cart
+    cart: {
+        shoppingCart: 'Кошик',
+        continueShopping: 'Продовжити покупки',
+        forMyAccount: 'Для мого акаунту',
+        forGift: 'У подарунок',
+        country: 'Країна',
+        total: 'Всього:',
+        bonusesLuden: 'Бонуси Luden',
+        available: 'Доступно',
+        used: 'Використано',
+        loginToUseBonuses: 'Увійдіть, щоб використовувати бонуси',
+        useAvailableBonuses: 'Використати доступні бонуси',
+        apply: 'Застосувати',
+        totalAmount: 'Загальна сума:',
+        reward: 'Винагорода:',
+        bonusesLudenReward: 'Бонусів Luden',
+        goToPayment: 'Перейти до оплати',
+        emptyCart: 'Ваш кошик порожній',
+        clearCart: 'Очистити кошик',
+        deleteItem: 'Видалити елемент',
+        quantityPlus: '+',
+        quantityMinus: '-',
+    },
+
+  // Countries
+  countries: {
+    ukraine: 'Україна',
+    usa: 'США',
+    poland: 'Польща',
+    spain: 'Іспанія',
+    bulgaria: 'Болгарія',
+    germany: 'Німеччина',
+    france: 'Франція',
+    italy: 'Італія',
+    czechRepublic: 'Чехія',
+    romania: 'Румунія',
+  },
+
+  // Bill Statuses
+  billStatus: {
+    paid: 'Оплачено',
+    completed: 'Завершено',
+    pending: 'Очікується',
+    cancelled: 'Скасовано',
+    refunded: 'Повернено',
+    processing: 'Обробляється',
+  },
+
+  // Bonus Card
+  bonus: {
+    discount10: '10% знижка',
+    coins50: '50 монет',
+    freeTrial: 'безкоштовна пробна версія',
+    timeLeft: '{days}д {hours}год залишилось',
+    expired: 'Прострочено',
+  },
+
+  // Genres
+  genres: {
+    openWorld: 'Відкритий світ',
+    rpg: 'Рольова гра',
+    action: 'Екшн',
+    shooter: 'Шутер',
+    indie: 'Інді',
+    strategy: 'Стратегія',
+    horror: 'Жахи',
+    racing: 'Гонки',
+    adventure: 'Пригоди',
+    simulation: 'Симулятори',
+    sports: 'Спорт',
+    puzzle: 'Головоломки',
+    fighting: 'Файтинги',
+    arcade: 'Аркади',
+    platformer: 'Платформери',
+    mmo: 'ММО',
+    fps: 'Шутер від першої особи',
+    battleroyale: 'Королівська битва',
+  },
+
+  // Sorting
+  sort: {
+    sortBy: 'Сортувати за',
+    priceLowToHigh: 'Ціна: від низької',
+    priceHighToLow: 'Ціна: від високої',
+    nameAZ: 'Назва: А-Я',
+    nameZA: 'Назва: Я-А',
+  },
+
+  // Aria Labels
+  aria: {
+    addToCart: 'Додати до кошика',
+    removeFromFavorites: 'Видалити з обраного',
+    addToFavorites: 'Додати до обраного',
+    toggleTheme: 'Перемкнути тему',
+    shoppingCart: 'Кошик покупок',
+    toggleLanguage: 'Змінити мову',
+  },
+
+  // Game Details
+  gameDetails: {
+    developer: 'Розробник',
+    publisher: 'Видавець',
+  },
+} as const;
